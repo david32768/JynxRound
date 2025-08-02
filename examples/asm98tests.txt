@@ -1,0 +1,65 @@
+; sysout for this file is:
+
+; roundtrip for ASM9.8/jdk3/AllStructures.class failed
+; assembly of ASM9.8/jdk3/ArtificialStructures.class failed
+; roundtrip for ASM9.8/jdk3/ArtificialStructures.class failed
+; roundtrip for ASM9.8/jdk8/Artificial$()$Structures.class failed
+; classes = 46 (ok = 43) (0.01 mins)
+;         3 failed       0 mainargs
+
+ASM9.8/DefaultPackage.class
+ASM9.8/annotations/ICA.class
+ASM9.8/annotations/IFA.class
+ASM9.8/annotations/IMA.class
+ASM9.8/annotations/IPA.class
+ASM9.8/annotations/ITA.class
+ASM9.8/annotations/ITPA.class
+ASM9.8/annotations/ITUA.class
+ASM9.8/annotations/IVA.class
+ASM9.8/annotations/VCA.class
+ASM9.8/annotations/VFA.class
+ASM9.8/annotations/VMA.class
+ASM9.8/annotations/VPA.class
+ASM9.8/annotations/VTA.class
+ASM9.8/annotations/VTPA.class
+ASM9.8/annotations/VTUA.class
+ASM9.8/annotations/VVA.class
+ASM9.8/jdk3/AllInstructions.class
+ASM9.8/jdk3/AllStructures$1.class
+ASM9.8/jdk3/AllStructures$InnerClass.class
+
+; fpstrict not supported in Java Version V1_1
+ASM9.8/jdk3/AllStructures.class
+
+; .debug attribute not supported in Java Version V1_3
+; .stackmap is only supported by JYNX as hint in Java Version V1_3
+; user attributes are not supported by JYNX
+ASM9.8/jdk3/ArtificialStructures.class
+
+ASM9.8/jdk3/LargeMethod.class
+ASM9.8/jdk5/AllInstructions.class
+ASM9.8/jdk5/AllStructures$1LocalClass.class
+ASM9.8/jdk5/AllStructures$EnumClass.class
+ASM9.8/jdk5/AllStructures$GenericInnerClass.class
+ASM9.8/jdk5/AllStructures$InnerClass.class
+ASM9.8/jdk5/AllStructures$InvisibleAnnotation.class
+ASM9.8/jdk5/AllStructures.class
+ASM9.8/jdk8/AllFrames.class
+ASM9.8/jdk8/AllInstructions.class
+ASM9.8/jdk8/AllStructures$1.class
+ASM9.8/jdk8/AllStructures$InnerClass.class
+ASM9.8/jdk8/AllStructures.class
+
+; non java id class name not supported by JYNX - class name includes $()$
+ASM9.8/jdk8/Artificial$()$Structures.class
+
+ASM9.8/jdk8/LargeMethod.class
+ASM9.8/jdk9/module-info.class
+ASM9.8/jdk9/pkg/A.class
+ASM9.8/jdk9/pkg/internal/AImpl.class
+ASM9.8/jdk11/AllInstructions.class
+ASM9.8/jdk11/AllStructures$Nested.class
+ASM9.8/jdk11/AllStructures.class
+ASM9.8/jdk14/AllStructures$EmptyRecord.class
+ASM9.8/jdk14/AllStructures$RecordSubType.class
+ASM9.8/jdk15/AllStructures.class
