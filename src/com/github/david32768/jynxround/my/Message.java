@@ -10,7 +10,7 @@ public enum Message implements JynxMessage {
     M87(ERROR,"options %s and %s conflict"),
     M414(WARNING,"difference output exceeds %d lines and has been truncated"),
     M415(BLANK,"string comparison succeeded"),
-    M416(WARNING,"string comparison failed"),
+    M416(ERROR,"string comparison failed"),
     M417("main args size (after removing options) is not %d: main args = %s"),
     M990(BLANK,"%s"),
     ;

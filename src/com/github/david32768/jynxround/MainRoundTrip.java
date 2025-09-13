@@ -5,7 +5,6 @@ import java.io.PrintWriter;
 import com.github.david32768.jynxfree.jynx.MainOption;
 import com.github.david32768.jynxfree.jynx.MainOptionService;
 
-import roundtrip.RoundTrip;
 
 public class MainRoundTrip implements MainOptionService {
 
